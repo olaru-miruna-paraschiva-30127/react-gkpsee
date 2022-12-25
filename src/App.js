@@ -201,7 +201,7 @@ style={{width:'100%',height:'55px',justifyContent:'space-between',
    backgroundColor:'rgb(204,204,255)',
    border:'2px solid pink',
    
-   borderRadius:'8px',borderColor:'rgb(127,0,255)'}}><BiAddToQueue/>&nbsp;&nbsp;&nbsp;Add Chapter</button></div>
+   borderRadius:'8px',borderColor:'rgb(127,0,255)'}}><BiAddToQueue/>&nbsp;&nbsp;&nbsp;Add Survey</button></div>
    
    </div>
    
