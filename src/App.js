@@ -84,7 +84,8 @@ const [a, sA] = useState(true);
    backgroundColor:r1==1?'rgb(230,231,243)':'rgb(127,0,255)',
    border:r1==1?'rgb(230,231,243)':'rgb(127,0,255)',
    borderRadius:'8px',
-   padding:'2px'
+   padding:'2px',
+   textDecoration: 'none'
   }} >
        <div style={{display:'flex',
     flex:1,
@@ -207,28 +208,15 @@ style={{width:'100%',height:'55px',justifyContent:'space-between',
 </article>
 {i==1?
 <div >
-<article style={{ float: 'right', width:'55%', backgroundColor:'white',border:'1px solid white',height:'840px'}}>
+<article style={{ float: 'right', width:'55%', backgroundColor:'white',border:'1px solid white',height:'540px'}}>
   <div style={{width:'100%'}}>
    <div style={{width:'100%'}}>
-<div style={{fontWeight:'bold',fontSize:"22px"}}>Brief</div>
+<div style={{fontWeight:'bold',fontSize:"22px"}}>Survey 1</div>
 
 <br/>
 <OpenOnClick1/>
 </div> 
-<br/>
-<div style={{width:'100%'}}>
-<div style={{fontWeight:'bold',fontSize:"22px"}}>Requirements</div>
 
-<br/>
-<OpenOnClick1/>
-</div> 
-<br/>
-<div style={{width:'100%'}}>
-<div style={{fontWeight:'bold',fontSize:"22px"}}>Milestones</div>
-
-<br/>
-<OpenOnClick1/>
-</div> 
    </div>
    </article>
    </div>:''
@@ -237,51 +225,14 @@ style={{width:'100%',height:'55px',justifyContent:'space-between',
 
 {i==2?
 <div >
-<article style={{ float: 'right', width:'55%', backgroundColor:'white',border:'1px solid white',height:'840px'}}>
+<article style={{ float: 'right', width:'55%', backgroundColor:'white',border:'1px solid white',height:'540px'}}>
   <div style={{width:'100%'}}>
    <div style={{width:'100%'}}>
-<div style={{fontWeight:'bold',fontSize:"22px"}}>Duration</div>
+<div style={{fontWeight:'bold',fontSize:"22px"}}>Survey 2</div>
 
 <br/>
 <OpenOnClick1/>
 </div> 
-<br/>
-<div style={{width:'100%'}}>
-<div style={{fontWeight:'bold',fontSize:"22px"}}>Timeline</div>
-
-<br/>
-<OpenOnClick1/>
-</div> 
-<br/>
-<div style={{width:'100%'}}>
-<div style={{fontWeight:'bold',fontSize:"22px"}}>Deliverables</div>
-
-<br/>
-<OpenOnClick1/>
-</div> 
-   </div>
-   </article>
-   </div>:''
-}
-
-{i==3?
-<div >
-<article style={{ float: 'right', width:'55%', backgroundColor:'white',border:'1px solid white',height:'600px'}}>
-  <div style={{width:'100%'}}>
-   <div style={{width:'100%'}}>
-<div style={{fontWeight:'bold',fontSize:"22px"}}>Curated Resources</div>
-
-<br/>
-<OpenOnClick1/>
-</div> 
-<br/>
-<div style={{width:'100%'}}>
-<div style={{fontWeight:'bold',fontSize:"22px"}}>Events</div>
-
-<br/>
-<OpenOnClick1/>
-</div> 
-<br/>
 
    </div>
    </article>
